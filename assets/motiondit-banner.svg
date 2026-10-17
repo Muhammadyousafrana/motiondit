@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">MotionDiT: Text-to-Motion Diffusion Transformer</title>
+  <desc id="desc">A dark navy banner with an abstract human skeleton linked to transformer attention nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081322"/>
+      <stop offset="1" stop-color="#172c48"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ee1c2"/>
+      <stop offset="1" stop-color="#79a9ff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="35" r="230" fill="#3688a8" opacity=".12"/>
+  <circle cx="1110" cy="350" r="160" fill="#5575ca" opacity=".1"/>
+  <g fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".92">
+    <path d="M861 76v52l-33 40-31 44m64-44 34 40 34 38M861 128l-40 32-30-25m70-7 40 30 30-30M861 168v57l-31 48m31-48 31 48"/>
+    <path d="M916 116h83M931 201h68M861 76l111-36m-34 245 69 36" opacity=".55"/>
+    <path d="M1000 80v190m0-146 66-41m-66 107 72 36m-72 44 69 36" stroke-width="3" opacity=".58"/>
+  </g>
+  <g filter="url(#glow)" fill="#63e3ca">
+    <circle cx="861" cy="76" r="9"/><circle cx="861" cy="128" r="8"/><circle cx="861" cy="168" r="8"/>
+    <circle cx="797" cy="212" r="7"/><circle cx="931" cy="246" r="7"/><circle cx="830" cy="273" r="7"/>
+    <circle cx="821" cy="160" r="7"/><circle cx="941" cy="153" r="7"/>
+    <circle cx="1000" cy="80" r="8"/><circle cx="1000" cy="144" r="8"/><circle cx="1000" cy="212" r="8"/><circle cx="1000" cy="270" r="8"/>
+    <circle cx="1066" cy="39" r="7"/><circle cx="1072" cy="180" r="7"/><circle cx="1069" cy="306" r="7"/>
+  </g>
+  <g fill="#132d49" stroke="#82aaff" stroke-width="2">
+    <rect x="974" y="58" width="52" height="44" rx="12"/>
+    <rect x="974" y="122" width="52" height="44" rx="12"/>
+    <rect x="974" y="190" width="52" height="44" rx="12"/>
+    <rect x="974" y="248" width="52" height="44" rx="12"/>
+  </g>
+  <g fill="#f2f7ff" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="70" y="132" font-size="17" font-weight="700" letter-spacing="4" fill="#66dfcd">GENERATIVE MOTION · PYTORCH</text>
+    <text x="66" y="198" font-size="54" font-weight="760" letter-spacing="-.8">MotionDiT</text>
+    <text x="70" y="244" font-size="23" fill="#bfd0e3">Text-to-motion diffusion transformer</text>
+    <text x="70" y="282" font-size="15" letter-spacing="1.2" fill="#8fa8c4">272-D HUMAN MOTION · DDPM · CLIP CONDITIONING</text>
+  </g>
+  <path d="M70 310h280" stroke="#4ee1c2" stroke-width="3" stroke-linecap="round" opacity=".82"/>
+</svg>

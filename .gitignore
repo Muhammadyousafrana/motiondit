@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# HumanML3D data and generated training artifacts
+data/
+outputs/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.mp4
+*.gif
