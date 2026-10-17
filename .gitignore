@@ -19,3 +19,5 @@ runs/
 *.ckpt
 *.mp4
 *.gif
+
+!assets/motiondit-demo.mp4

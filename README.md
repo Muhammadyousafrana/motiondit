@@ -8,6 +8,12 @@ MotionDiT is a PyTorch research and learning project for generating human motion
 
 The project includes data preparation, a variable-length motion dataset, DDPM training, checkpoint resume, TensorBoard metrics, and a script that generates and renders 3D motion as a GIF.
 
+## Demo
+
+[Watch or download the MotionDiT demo video](assets/motiondit-demo.mp4).
+
+
+
 > This is a custom implementation and training setup. It is not a reproduction of the original DiT paper or a published HumanML3D benchmark. No quantitative quality claim is made here.
 
 ## Architecture
